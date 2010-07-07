@@ -37,10 +37,4 @@ Rails::Initializer.run do |config|
   # Timezone
   config.time_zone = APP_CONFIG['time_zone'] || 'UTC'
   
-  # Gems
-  config.gem 'ruby-openid', :lib => 'openid'
-  # config.gem 'dbloete-ruby-openid', :lib => 'ruby-openid', :source => 'http://gems.github.com'
-  config.gem 'ruby-yadis', :lib => 'yadis'
-  config.gem 'mocha'
-  
 end

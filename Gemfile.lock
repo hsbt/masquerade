@@ -1,0 +1,55 @@
+--- 
+dependencies: 
+  ruby-yadis: 
+    group: 
+    - :default
+    version: ">= 0"
+    require: 
+    - yadis
+  rails: 
+    group: 
+    - :default
+    version: = 2.3.4
+  ruby-openid: 
+    group: 
+    - :default
+    version: ">= 0"
+    require: 
+    - openid
+  mysql: 
+    group: 
+    - :default
+    version: ">= 0"
+  mocha: 
+    group: 
+    - :test
+    version: ">= 0"
+specs: 
+- rake: 
+    version: 0.8.7
+- activesupport: 
+    version: 2.3.4
+- rack: 
+    version: 1.0.1
+- actionpack: 
+    version: 2.3.4
+- actionmailer: 
+    version: 2.3.4
+- activerecord: 
+    version: 2.3.4
+- activeresource: 
+    version: 2.3.4
+- mocha: 
+    version: 0.9.8
+- mysql: 
+    version: 2.8.1
+- rails: 
+    version: 2.3.4
+- ruby-openid: 
+    version: 2.1.7
+- ruby-yadis: 
+    version: 0.3.4
+hash: 78d814cebf28e6a4dba8572a8d77eee1e0f8ecb9
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
