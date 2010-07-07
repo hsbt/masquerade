@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'rails', '2.3.4'
+gem 'rails', '2.3.8'
 gem 'ruby-openid', :require => 'openid'
 gem 'ruby-yadis', :require => 'yadis'
 gem 'mysql'
